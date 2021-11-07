@@ -1,7 +1,7 @@
 title: Pascal Schweizer's Page
 author:
   name: Pascal Schweizer
-  email: "passchwe (*) gmail (*) com"
+  email: "passchwe.delete.this.here@gmail.com"
 # description: > # this means to ignore newlines until "show_excerpts:"
   
 
@@ -57,3 +57,4 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+ - jekyll-spaceship
