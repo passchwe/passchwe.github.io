@@ -4,7 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Hi, I am Pascal Schweizer. 
-I have studied physics at ETH Zürich  
-and finished my MSc.
-Now, I am pursuing the teaching diploma.
+Hello, my name is Pascal Schweizer.
+I studied physics at ETH in Zurich.
+Currently, I am pursuing a teaching diploma for high school.
