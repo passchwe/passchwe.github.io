@@ -55,7 +55,7 @@ Gemäss obiger Formel für $F_2$ ist das Resultat also
 $$
     \eta = \frac{r_1}{r_2} = \frac{r_1}{l-r_1} < 1.
 $$
-Dies gilt, wenn $r_1 < l - r_1$ also wenn $0~m < r_1 < 1~m$.
+Dies gilt, wenn $r_1 < l - r_1$ also wenn $0~m < r_1 < 1~m$. &nbsp; :simple_smile: 
 
 Aufgabe 2: Wippe
 ----
@@ -95,4 +95,4 @@ Für die Lösung stellen wir die Formel aus 2. nach $m_C$ um und erhalten
 $$
     m_C =  \frac{m_A r_A - m_B r_B}{r_C} \approx 1.25 * 10^{-2}~kg.
 $$
-Diese Masse ist zu klein für einen Charlie!
+Diese Masse ist zu klein für einen Charlie! &nbsp; :disappointed:
