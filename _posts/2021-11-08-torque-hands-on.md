@@ -10,8 +10,10 @@ title: "Einleitung Drehmoment"
 ### Ziel
 
 Als Kind haben Sie sicher schon einmal auf einem Gigigampfi (Wippe) gespielt.
-Hier wenden Sie Ihre frühkindliche Erfahrung an, um das physikalische Konzept des Drehmoments zu definieren.
-D.h. Ihr Ziel ist es, die Definition des Drehmoments zu können.
+Hier wenden Sie diese frühkindliche Erfahrung an, 
+um das physikalische Konzept des Drehmoments zu definieren.
+D.h. Ihr Ziel ist es, die Definition des Drehmoments zu kennen
+und zu wissen, wie diese Definition mit dem Beginn einer Drehung zusammenhängt.
 
 ### Durchführung
 
@@ -56,7 +58,4 @@ D.h. Ihr Ziel ist es, die Definition des Drehmoments zu können.
     *   Was führt zu einer Drehung im/gegen den Uhrzeigersinn?
     *   Was erwarten Sie in Ihrer "custom" Anordnung?
     *   Prüfen Sie Ihre Hypothese, in dem Sie die Stützen lösen!
-5.  Fertig! 
-
-
-
+5.  Fertig! &nbsp; :raised_hands: 
