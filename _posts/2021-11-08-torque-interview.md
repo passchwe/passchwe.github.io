@@ -55,7 +55,7 @@ Gemäss obiger Formel für $F_2$ ist das Resultat also
 $$
     \eta = \frac{r_1}{r_2} = \frac{r_1}{l-r_1} < 1.
 $$
-Dies gilt, wenn $r_1 < l - r_1$ also wenn $0~m < r_1 < 1~m$. &nbsp; :simple_smile: 
+Dies gilt, wenn $r_1 < l - r_1$ also wenn $0~m < r_1 < 1~m$. &nbsp; :white_check_mark: 
 
 Aufgabe 2: Wippe
 ----
