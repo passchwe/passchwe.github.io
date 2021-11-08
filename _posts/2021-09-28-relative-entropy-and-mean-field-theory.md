@@ -34,10 +34,3 @@ one has a sum over all possible spin configurations $s_i \in \\{\pm 1\\}$.
 However, for mean field theory, 
 one has a sum over the effective magnetization $m \in \\{-1, \dots, 1\\}$ (and uses a weight given by the degeneracy of the magnetization therein). 
 This fact greatly simplifies the computation of eq. \ref{eq:partition_function} for the mean field model.
-
-```mermaid!
-graph TD;
-    A(foo)-->|contains| B{bar} & C(baz);
-    B-->|ham| D[spam];
-    C-->|eggs| D;
-```
