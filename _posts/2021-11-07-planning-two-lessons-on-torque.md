@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Grobplan: Zwei Lektionen zum Drehmoment"
+title: "Zwei Lektionen zum Drehmoment"
 ---
 ### Allgemeine Ziele
 *   mathematische Fluency verbessern
