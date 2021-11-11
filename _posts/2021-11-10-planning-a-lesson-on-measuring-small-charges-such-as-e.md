@@ -62,8 +62,8 @@ Lernziele
 *   Drei Bier Regel anwenden für Richtung der Kraft auf Probeladung in Magnetfeld
 *   Daumenregel für Richtung des Magnetfelds anwenden
 *   Argumentieren, wieso Elektron Kreisbewegung ausführt
-*   Dimensionsanalyse zur Bestimmung vom Radius anwenden
-*   Energieerhaltung für Geschwindigkeitsbetrag in Abhängigkeit von Spannung und Ladung anwenden
+*   evtl. Dimensionsanalyse zur Bestimmung vom Radius anwenden
+*   evtl. Energieerhaltung für Geschwindigkeitsbetrag in Abhängigkeit von Spannung und Ladung anwenden
 *   Funktionsweise des Versuchs verstehen
 
 Evidenz
