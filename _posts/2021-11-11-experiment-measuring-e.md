@@ -23,5 +23,5 @@ Wir beobachten eine Kreisbahn mit Radius $R$.
 5. Bestimmen Sie schlussendlich algebraisch die Ladung $e$ abhängig von $m$, $R$, $B$ und $U$.
 6. Fertig! &nbsp; :white_check_mark: 
 7. Wir können mit $m \approx 10^{-30}~kg$ und der Messung von $R$, $B$ und $U$ das erwünschte $e$ bestimmen. 
-Wir erwarten etwa $e \approx 10^{-19}~C$.
+Wir erwarten etwa $e \approx 10^{-19}~C$. &nbsp; :yum:
 > [Zahlen für Ladung und Masse des Elektrons aus Wikipedia](https://en.wikipedia.org/wiki/Electron)
