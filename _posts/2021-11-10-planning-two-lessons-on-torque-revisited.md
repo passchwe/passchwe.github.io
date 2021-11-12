@@ -47,7 +47,7 @@ graph TD;
 *   lösen Schaukel und zweiseitige Hebelaufgaben
 
 ### Lernziele L2
-*   wissen, was beim einseitigen Hebel schiefläuft
+*   wissen, was beim einseitigen Hebel zusätzlich berücksichtigt werden muss
 *   lösen Aufgabe zu einseitigem Hebel
 
 ### Vorwissen und Schwierigkeiten
