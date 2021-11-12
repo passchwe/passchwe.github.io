@@ -5,7 +5,7 @@ title: "Einleitung Drehmoment"
 
 <img src="/assets/wippe-phet.jpg" style="width: 80%;">
 
-> Spielen für Physikerinnen und Physiker: eine Wippe. [Quelle](https://commons.wikimedia.org/wiki/File:Up_and_down.jpg).
+> Spielen für Physikerinnen und Physiker und Kinder: eine Wippe. [Quelle](https://commons.wikimedia.org/wiki/File:Up_and_down.jpg).
 
 ### Ziel
 
