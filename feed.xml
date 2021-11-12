@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-11-12T06:38:22+00:00</updated><id>/feed.xml</id><title type="html">Pascal Schweizer’s Page</title><author><name>Pascal Schweizer</name><email>passchwe.delete.this.here@gmail.com</email></author><entry><title type="html">Aufgabe zur Messung von e</title><link href="/2021/11/11/experiment-measuring-e.html" rel="alternate" type="text/html" title="Aufgabe zur Messung von e" /><published>2021-11-11T00:00:00+00:00</published><updated>2021-11-11T00:00:00+00:00</updated><id>/2021/11/11/experiment-measuring-e</id><content type="html" xml:base="/2021/11/11/experiment-measuring-e.html">&lt;p&gt;&lt;img src=&quot;/assets/lorentz-on-point-charge.png&quot; style=&quot;width: 20%;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ein Elektron mit Masse $m$ und Geschwindigkeit $v$ ist in einem homogenen B-Feld mit Feldstärke $B$.
+Wir beobachten eine Kreisbahn mit Radius $R$.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;In welche Richtung zeigt die Kraft?&lt;/li&gt;
+  &lt;li&gt;Gemäss Newton können wir aus der Kraft die Beschleunigung bestimmen. 
+  Die Beschleunigung zeigt in die Richtung der Kraft und ist durch $a = \frac{F}{m}$ gegeben. 
+  Wieso erwarten wir eine Kreisbewegung?
+    &lt;ul&gt;
+      &lt;li&gt;Hinweis: Wie stehen die Richtungen von Geschwindigkeit und Beschleunigung in Beziehung?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Bestimmen Sie die Ladung $e$ des Elektrons algebraisch.
+    &lt;ul&gt;
+      &lt;li&gt;Hinweis: Sie brauchen die Lorentzkraft, die Geschwindigkeit und die Beschleunigung für eine Kreisbahn und Newton.&lt;br /&gt;
+  Problem für die nächste Aufgabe: Im Experiment messen wir die Geschwindigkeit $v$ nicht direkt.
+  Somit ist neben der Ladung $e$ auch die Geschwindigkeit $v$ unbekannt und wir brauchen eine zweite Gleichung. 
+  Das Elektron wird aber durch eine Spannung $U$ beschleunigt.
+  Damit hat es eine Energie $e U$.
+  Mit der Energieerhaltung können wir $v$ bestimmen.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Bestimmen Sie $v$ algebraisch abhängig von $m$, $e$ und $U$.&lt;/li&gt;
+  &lt;li&gt;Bestimmen Sie schlussendlich algebraisch die Ladung $e$ abhängig von $m$, $R$, $B$ und $U$.&lt;/li&gt;
+  &lt;li&gt;Fertig!   :white_check_mark:&lt;/li&gt;
+  &lt;li&gt;Wir können mit $m \approx 10^{-30}~kg$ und der Messung von $R$, $B$ und $U$ das erwünschte $e$ bestimmen. 
+Wir erwarten etwa $e \approx 10^{-19}~C$.   :yum:
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Electron&quot;&gt;Zahlen für Ladung und Masse des Elektrons aus Wikipedia&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Pascal Schweizer</name><email>passchwe.delete.this.here@gmail.com</email></author><summary type="html"></summary></entry><entry><title type="html">Aufgabe Einseitiger Hebel</title><link href="/2021/11/11/torque-one-sided-lever-problem.html" rel="alternate" type="text/html" title="Aufgabe Einseitiger Hebel" /><published>2021-11-11T00:00:00+00:00</published><updated>2021-11-11T00:00:00+00:00</updated><id>/2021/11/11/torque-one-sided-lever-problem</id><content type="html" xml:base="/2021/11/11/torque-one-sided-lever-problem.html">&lt;p&gt;&lt;img src=&quot;/assets/one-sided-lever.png&quot; style=&quot;width: 80%;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Abb. 1: Situation in Aufgabe 1&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;anstrengende-wippe&quot;&gt;Anstrengende Wippe&lt;/h2&gt;
+
+&lt;p&gt;Auf einem Spielplatz steht eine Wippe (“Gigigampfi”). 
+Diese ist aber so konstruiert worden, dass die 2. Hälfte fehlt.
+Wenn die Wippe also benutzt werden soll, dann müssen sich die Kinder gegenseitig helfen.
+Wir nehmen an, dass die Wippe aus Holz ist $\rho \approx 500~kg/m^3$.
+Sie ist zylinderförmig mit Radius $R \approx 5~cm$ und Höhe $h \approx 5~m$ (siehe Abb. 1).&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Berechnen Sie die Masse $m$ der Wippe.
+    &lt;ul&gt;
+      &lt;li&gt;Überlegen Sie sich, wieso hier die Masse relevant ist.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Bob sitzt nun auf der Wippe und Alice hält diese hoch. 
+ Alice steht ganz am Ende der Wippe und kann eine Kraft von $F = 200~N$ ausüben.
+ Wie weit nach hinten ($x$) darf Bob ($m_B = 20~kg$) sitzen, damit Alice gerade noch das Gleichgewicht halten kann?
+ Wieso ergibt es Sinn, dass Alice am Ende der Wippe steht?&lt;/li&gt;
+  &lt;li&gt;Angenommen, Bob und Alice möchten eine Distanz von $d = 1~m$ haben.
+ Wie gross müsste dann der Radius $R$ der Wippe sein ($h$ bleibt gleich)?&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Pascal Schweizer</name><email>passchwe.delete.this.here@gmail.com</email></author><summary type="html"></summary></entry><entry><title type="html">POE zum Drehmoment</title><link href="/2021/11/11/torque-predict-experiments.html" rel="alternate" type="text/html" title="POE zum Drehmoment" /><published>2021-11-11T00:00:00+00:00</published><updated>2021-11-11T00:00:00+00:00</updated><id>/2021/11/11/torque-predict-experiments</id><content type="html" xml:base="/2021/11/11/torque-predict-experiments.html">&lt;p&gt;tbc.&lt;/p&gt;</content><author><name>Pascal Schweizer</name><email>passchwe.delete.this.here@gmail.com</email></author><summary type="html">tbc.</summary></entry><entry><title type="html">Winzige Ladung messen: Fadenstrahlrohr</title><link href="/2021/11/10/planning-a-lesson-on-measuring-small-charges-such-as-e.html" rel="alternate" type="text/html" title="Winzige Ladung messen: Fadenstrahlrohr" /><published>2021-11-10T00:00:00+00:00</published><updated>2021-11-10T00:00:00+00:00</updated><id>/2021/11/10/planning-a-lesson-on-measuring-small-charges-such-as-e</id><content type="html" xml:base="/2021/11/10/planning-a-lesson-on-measuring-small-charges-such-as-e.html">&lt;h2 id=&quot;allgemeine-ziele&quot;&gt;Allgemeine Ziele&lt;/h2&gt;
+
+&lt;p&gt;Kernfrage: Wie untersuche ich kleinste Strukturen?
+Hier: e messen mit Fadenstrahlrohr!&lt;/p&gt;
+
+&lt;h2 id=&quot;begriffe&quot;&gt;Begriffe&lt;/h2&gt;
+
+&lt;p&gt;(V): Vorwissen&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;B Feld(V)&lt;/li&gt;
+  &lt;li&gt;Stromstärke I(V)&lt;/li&gt;
+  &lt;li&gt;Ampere Gesetz I -&amp;gt; B(V)&lt;/li&gt;
+  &lt;li&gt;Lorentzkraft(V)&lt;/li&gt;
+  &lt;li&gt;Kreisbewegung(V)&lt;/li&gt;
+  &lt;li&gt;Zentripetalkraft/Beschleunigung(V)&lt;/li&gt;
+  &lt;li&gt;Energieerhaltung(V)&lt;/li&gt;
+  &lt;li&gt;Spannung(V)&lt;/li&gt;
+  &lt;li&gt;Potential(V)&lt;/li&gt;
+  &lt;li&gt;Ladung(V)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img class=&quot;mermaid&quot; src=&quot;https://mermaid.ink/svg/eyJjb2RlIjoiZ3JhcGggVEQ7XG5CKEItRmVsZCkgLS0tPnxBbXBlcmV8IEkoU3Ryb21zdMOkcmtlIEkpXG5FKEUtRmVsZCkgLS0tPnxHYXVzc3wgUShMYWR1bmcgUSlcbkIgJiBFIC0tPnx3aXJrZW4gYXVmIFB1bmt0dGVpbGNoZW4gbWl0fCBGKExvcmVudHprcmFmdCBhdWYgUHJvYmVsYWR1bmcgRilcbkUgLS0tLT58aXN0IEdyYWRpZW50IHZvbnwgVShQb3RlbnRpYWwgVSlcblUgLS0-fFVudGVyc2NoaWVkZSBkYXJpbiBnZWJlbnwgVihTcGFubnVuZyBWKVxuRiAtLT58ZsO8aHJ0IGJlaSBCIEZlbGQgcGVycC4gdnwgYShaZW50cmlwZXRhbGJlc2NobGV1bmlndW5nIGEpXG5hIC0tPnxmw7xocnQgenV8IFIoS3JlaXNiYWhuIG1pdCBhID0gUiBvbWVnYV4yKVxuUiAtLT58QmVzdGFuZHRlaWxlfCBvbWVnYShLcmVpc2ZyZXF1ZW56KSAmIFJhZGkoUmFkaXVzIFIpXG5WIC0tPnxuw7x0emxpY2ggZsO8cnwgRWNvbihFbmVyZ2llZXJoYWx0dW5nKSIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In19&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;fehlkonzepte&quot;&gt;Fehlkonzepte&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Kreisbewegung
+    &lt;ul&gt;
+      &lt;li&gt;konstantes Tempo = Keine Beschleunigung&lt;/li&gt;
+      &lt;li&gt;Zentrifugalkraft zieht nach aussen&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;B-Felder
+    &lt;ul&gt;
+      &lt;li&gt;Interpretation und Erstellen von Feldlinien sind schwierig&lt;/li&gt;
+      &lt;li&gt;Kompassnadel nicht als Magnet erkennen&lt;/li&gt;
+      &lt;li&gt;Nordpol ist eine positive Ladung (Ruhende Ladung beeinflusst Kompassnadel)&lt;/li&gt;
+      &lt;li&gt;Strom erzeugt E-Feld&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Felder allgemein
+    &lt;ul&gt;
+      &lt;li&gt;Stellen Wechselwirkung über Felder, e.g. in negativer Trommel wird positive Probeladung von naher Wand angezogen&lt;/li&gt;
+      &lt;li&gt;Unterscheidung Feld/Kraft unklar, e.g. negative Testladung erfährt Kraft in Richtung von Feldlinie&lt;/li&gt;
+      &lt;li&gt;Bahn folgt genau den Feldlinien: Beschleunigung v.s. Bahn&lt;/li&gt;
+      &lt;li&gt;Äquivalenz Vektorfeld/Feldlinien/Äquipotenziallinien unklar&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;lernziele&quot;&gt;Lernziele&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Drei Bier Regel anwenden für Richtung der Kraft auf Probeladung in Magnetfeld&lt;/li&gt;
+  &lt;li&gt;Daumenregel für Richtung des Magnetfelds anwenden&lt;/li&gt;
+  &lt;li&gt;Argumentieren, wieso Elektron Kreisbewegung ausführt&lt;/li&gt;
+  &lt;li&gt;evtl. Dimensionsanalyse zur Bestimmung vom Radius anwenden&lt;/li&gt;
+  &lt;li&gt;evtl. Energieerhaltung für Geschwindigkeitsbetrag in Abhängigkeit von Spannung und Ladung anwenden&lt;/li&gt;
+  &lt;li&gt;Funktionsweise des Versuchs verstehen&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;evidenz&quot;&gt;Evidenz&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Clicker Fragen (Vorwissensbezogene Begriffe)&lt;/li&gt;
+  &lt;li&gt;Concept Map/Summary zum Versuch erstellen&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ablauf&quot;&gt;Ablauf&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Zeit&lt;/th&gt;
+      &lt;th&gt;Inhalt&lt;/th&gt;
+      &lt;th&gt;Form&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5’&lt;/td&gt;
+      &lt;td&gt;IU &amp;amp; Repetition&lt;/td&gt;
+      &lt;td&gt;Kollektiv&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;20’&lt;/td&gt;
+      &lt;td&gt;Clicker&lt;/td&gt;
+      &lt;td&gt;Gruppe/Kollektiv&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10’&lt;/td&gt;
+      &lt;td&gt;Fadenstrahlrohr&lt;/td&gt;
+      &lt;td&gt;Kollektiv&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;evtl. 10’&lt;/td&gt;
+      &lt;td&gt;Concept Map&lt;/td&gt;
+      &lt;td&gt;Individuell&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;oder 10’&lt;/td&gt;
+      &lt;td&gt;$n$ sentence summary&lt;/td&gt;
+      &lt;td&gt;Individuell&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name>Pascal Schweizer</name><email>passchwe.delete.this.here@gmail.com</email></author><summary type="html">Allgemeine Ziele Kernfrage: Wie untersuche ich kleinste Strukturen? Hier: e messen mit Fadenstrahlrohr! Begriffe (V): Vorwissen B Feld(V) Stromstärke I(V) Ampere Gesetz I -&amp;gt; B(V) Lorentzkraft(V) Kreisbewegung(V) Zentripetalkraft/Beschleunigung(V) Energieerhaltung(V) Spannung(V) Potential(V) Ladung(V) graph TD; B(B-Feld) ---&amp;gt;|Ampere| I(Stromstärke I) E(E-Feld) ---&amp;gt;|Gauss| Q(Ladung Q) B &amp;amp; E --&amp;gt;|wirken auf Punktteilchen mit| F(Lorentzkraft auf Probeladung F) E ----&amp;gt;|ist Gradient von| U(Potential U) U --&amp;gt;|Unterschiede darin geben| V(Spannung V) F --&amp;gt;|führt bei B Feld perp. v| a(Zentripetalbeschleunigung a) a --&amp;gt;|führt zu| R(Kreisbahn mit a = R omega^2) R --&amp;gt;|Bestandteile| omega(Kreisfrequenz) &amp;amp; Radi(Radius R) V --&amp;gt;|nützlich für| Econ(Energieerhaltung) Fehlkonzepte Kreisbewegung konstantes Tempo = Keine Beschleunigung Zentrifugalkraft zieht nach aussen B-Felder Interpretation und Erstellen von Feldlinien sind schwierig Kompassnadel nicht als Magnet erkennen Nordpol ist eine positive Ladung (Ruhende Ladung beeinflusst Kompassnadel) Strom erzeugt E-Feld Felder allgemein Stellen Wechselwirkung über Felder, e.g. in negativer Trommel wird positive Probeladung von naher Wand angezogen Unterscheidung Feld/Kraft unklar, e.g. negative Testladung erfährt Kraft in Richtung von Feldlinie Bahn folgt genau den Feldlinien: Beschleunigung v.s. Bahn Äquivalenz Vektorfeld/Feldlinien/Äquipotenziallinien unklar Lernziele Drei Bier Regel anwenden für Richtung der Kraft auf Probeladung in Magnetfeld Daumenregel für Richtung des Magnetfelds anwenden Argumentieren, wieso Elektron Kreisbewegung ausführt evtl. Dimensionsanalyse zur Bestimmung vom Radius anwenden evtl. Energieerhaltung für Geschwindigkeitsbetrag in Abhängigkeit von Spannung und Ladung anwenden Funktionsweise des Versuchs verstehen Evidenz Clicker Fragen (Vorwissensbezogene Begriffe) Concept Map/Summary zum Versuch erstellen Ablauf Zeit Inhalt Form 5’ IU &amp;amp; Repetition Kollektiv 20’ Clicker Gruppe/Kollektiv 10’ Fadenstrahlrohr Kollektiv evtl. 10’ Concept Map Individuell oder 10’ $n$ sentence summary Individuell</summary></entry><entry><title type="html">Zwei Lektionen zum Drehmoment: Revisited</title><link href="/2021/11/10/planning-two-lessons-on-torque-revisited.html" rel="alternate" type="text/html" title="Zwei Lektionen zum Drehmoment: Revisited" /><published>2021-11-10T00:00:00+00:00</published><updated>2021-11-10T00:00:00+00:00</updated><id>/2021/11/10/planning-two-lessons-on-torque-revisited</id><content type="html" xml:base="/2021/11/10/planning-two-lessons-on-torque-revisited.html">&lt;h3 id=&quot;allgemeine-ziele&quot;&gt;Allgemeine Ziele&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Mathematische Fluency verbessern.&lt;/li&gt;
+  &lt;li&gt;Wie funktioniert ein Gleichgewicht? Hier: Summe über alle Drehmomente.&lt;/li&gt;
+  &lt;li&gt;Alltagsanwendungen: Wippe, Schraubenzieher, Ratsche, …&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;begriffe&quot;&gt;Begriffe&lt;/h3&gt;
+
+&lt;p&gt;(V): Vorwissen&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gleichgewicht&lt;/li&gt;
+  &lt;li&gt;Kräfte(V)&lt;/li&gt;
+  &lt;li&gt;Drehmomente&lt;/li&gt;
+  &lt;li&gt;Hebel&lt;/li&gt;
+  &lt;li&gt;im/gegen Uhrzeigersinn&lt;/li&gt;
+  &lt;li&gt;Schaukel&lt;/li&gt;
+  &lt;li&gt;Referenzpunkt Wahl&lt;/li&gt;
+  &lt;li&gt;Geometrie (i.e. $\sin \theta$)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img class=&quot;mermaid&quot; src=&quot;https://mermaid.ink/svg/eyJjb2RlIjoiZ3JhcGggVEQ7XG5HRyhHbGVpY2hnZXdpY2h0KVxuLS0-fG1vdGl2aWVydCBEZWZpbml0aW9uIHZvbnwgTShEcmVobW9tZW50KVxuR0cgICAgLS0-fHZlcnNjaHdpbmRldHwgRnMoU3VtbWUgw7xiZXIgS3LDpGZ0ZSlcbk1cbi0tPnxSaWNodHVuZ3wgKyhHZWdlbiBVaHJ6ZWlnZXJzaW5uOiBwb3NpdGl2KSAmIC0oSW0gVWhyemVpZ2Vyc2lubjogbmVnYXRpdilcbk1cbi0tLS0-fEJldHJhZyBzZXR6dCBzaWNoIHp1c2FtbWVuIGF1c3wgcihPcnRzdmVrdG9yKSAmIEYoS3JhZnQpICYgcGhpKFdpbmtlbClcbkZcbi0tLS0-fGJlaXNwaWVsc3dlaXNlfCBtZyhHZXdpY2h0c2tyYWZ0KVxuclxuLS0tLT58cmVsYXRpdiB6dXwgUChSZWZlcmVuenB1bmt0L0RyZWhhY2hzZSlcbk1cbi0tLS0tLT58QW53ZW5kdW5nZW58IEgoSGViZWwpICYgUyhTY2hhdWtlbCkgJiBGZGlhZyhLcsOkZnRlZGlhZ3JhbW0pXG5GZGlhZ1xuLS0tLT58bsO8dHpsaWNoIGJlaXwgUCAmIHBoaSIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In19&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;lernziele-l1&quot;&gt;Lernziele L1&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;kennen Definition des Drehmoments&lt;/li&gt;
+  &lt;li&gt;kennen Vorzeichenkonvention für Drehung&lt;/li&gt;
+  &lt;li&gt;lösen Schaukel und zweiseitige Hebelaufgaben&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;lernziele-l2&quot;&gt;Lernziele L2&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;wissen, was beim einseitigen Hebel zusätzlich berücksichtigt werden muss&lt;/li&gt;
+  &lt;li&gt;lösen Aufgabe zu einseitigem Hebel&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;vorwissen-und-schwierigkeiten&quot;&gt;Vorwissen und Schwierigkeiten&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gewichtskraft&lt;/li&gt;
+  &lt;li&gt;evtl. Trigonometrie&lt;/li&gt;
+  &lt;li&gt;evtl. Kräftediagramm&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;evtl. COM als Angriffspunkt der Gewichtskraft&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Kraft
+    &lt;ul&gt;
+      &lt;li&gt;Clusterbegriff für Energie und Impuls&lt;/li&gt;
+      &lt;li&gt;Eine Kraft ändert die Geschwindigkeit eines Körpers&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;evidenz&quot;&gt;Evidenz&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1: Lernende erklären sich Rechnungen gegenseitig im Interview&lt;/li&gt;
+  &lt;li&gt;1: Muddiest point nach hands on für den Begriff des Drehmoments&lt;/li&gt;
+  &lt;li&gt;2: One sentence summary für einseitiger Hebel POE&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;methoden&quot;&gt;Methoden&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1(A) Advanced organizer:
+    &lt;ul&gt;
+      &lt;li&gt;Zusammenhängende Lektionen&lt;/li&gt;
+      &lt;li&gt;Überblick verschaffen&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;1(D) hands on:
+    &lt;ul&gt;
+      &lt;li&gt;Entdecken des Drehmoments &lt;a href=&quot;https://phet.colorado.edu/sims/html/balancing-act/latest/balancing-act_en.html&quot;&gt;-&amp;gt; google: site:phet.colorado.edu balancing act -&amp;gt; wählen: intro&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;1(B) Interview:
+    &lt;ul&gt;
+      &lt;li&gt;Aufgabe Schaukel und Hebel&lt;/li&gt;
+      &lt;li&gt;Aufgabe Wahl des Referenzpunkts&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2(C) predict observe explain / productive failure:
+    &lt;ul&gt;
+      &lt;li&gt;Einseitiger Hebel - Gewichtskraft d. Hebels muss berücksichtigt werden&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;planung-der-lektionen&quot;&gt;Planung der Lektionen&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Zeit&lt;/th&gt;
+      &lt;th&gt;Inhalt&lt;/th&gt;
+      &lt;th&gt;Form&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10’&lt;/td&gt;
+      &lt;td&gt;IU &amp;amp; Advanced organizer&lt;/td&gt;
+      &lt;td&gt;Kollektiv&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10’&lt;/td&gt;
+      &lt;td&gt;Hands on: phet Simulation&lt;/td&gt;
+      &lt;td&gt;Partner und Kollektiv&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5’&lt;/td&gt;
+      &lt;td&gt;Muddiest point: Definition Drehmoment&lt;/td&gt;
+      &lt;td&gt;Kollektiv&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;15’&lt;/td&gt;
+      &lt;td&gt;Interview: Hebel/Schaukel&lt;/td&gt;
+      &lt;td&gt;Partner&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Zeit&lt;/th&gt;
+      &lt;th&gt;Inhalt&lt;/th&gt;
+      &lt;th&gt;Form&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5’&lt;/td&gt;
+      &lt;td&gt;IU &amp;amp; Repetition&lt;/td&gt;
+      &lt;td&gt;Kollektiv&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10’&lt;/td&gt;
+      &lt;td&gt;POE: Zweiseitiger Hebel&lt;/td&gt;
+      &lt;td&gt;Einzel, Kollektiv&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10’&lt;/td&gt;
+      &lt;td&gt;POE: Einseitiger Hebel&lt;/td&gt;
+      &lt;td&gt;Einzel, Kollektiv&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;20’&lt;/td&gt;
+      &lt;td&gt;Aufgabe einseitiger Hebel&lt;/td&gt;
+      &lt;td&gt;Sandwich&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name>Pascal Schweizer</name><email>passchwe.delete.this.here@gmail.com</email></author><summary type="html">Allgemeine Ziele Mathematische Fluency verbessern. Wie funktioniert ein Gleichgewicht? Hier: Summe über alle Drehmomente. Alltagsanwendungen: Wippe, Schraubenzieher, Ratsche, … Begriffe (V): Vorwissen Gleichgewicht Kräfte(V) Drehmomente Hebel im/gegen Uhrzeigersinn Schaukel Referenzpunkt Wahl Geometrie (i.e. $\sin \theta$) graph TD; GG(Gleichgewicht) --&amp;gt;|motiviert Definition von| M(Drehmoment) GG --&amp;gt;|verschwindet| Fs(Summe über Kräfte) M --&amp;gt;|Richtung| +(Gegen Uhrzeigersinn: positiv) &amp;amp; -(Im Uhrzeigersinn: negativ) M ----&amp;gt;|Betrag setzt sich zusammen aus| r(Ortsvektor) &amp;amp; F(Kraft) &amp;amp; phi(Winkel) F ----&amp;gt;|beispielsweise| mg(Gewichtskraft) r ----&amp;gt;|relativ zu| P(Referenzpunkt/Drehachse) M ------&amp;gt;|Anwendungen| H(Hebel) &amp;amp; S(Schaukel) &amp;amp; Fdiag(Kräftediagramm) Fdiag ----&amp;gt;|nützlich bei| P &amp;amp; phi Lernziele L1 kennen Definition des Drehmoments kennen Vorzeichenkonvention für Drehung lösen Schaukel und zweiseitige Hebelaufgaben Lernziele L2 wissen, was beim einseitigen Hebel zusätzlich berücksichtigt werden muss lösen Aufgabe zu einseitigem Hebel Vorwissen und Schwierigkeiten Gewichtskraft evtl. Trigonometrie evtl. Kräftediagramm evtl. COM als Angriffspunkt der Gewichtskraft Kraft Clusterbegriff für Energie und Impuls Eine Kraft ändert die Geschwindigkeit eines Körpers Evidenz 1: Lernende erklären sich Rechnungen gegenseitig im Interview 1: Muddiest point nach hands on für den Begriff des Drehmoments 2: One sentence summary für einseitiger Hebel POE Methoden 1(A) Advanced organizer: Zusammenhängende Lektionen Überblick verschaffen 1(D) hands on: Entdecken des Drehmoments -&amp;gt; google: site:phet.colorado.edu balancing act -&amp;gt; wählen: intro 1(B) Interview: Aufgabe Schaukel und Hebel Aufgabe Wahl des Referenzpunkts 2(C) predict observe explain / productive failure: Einseitiger Hebel - Gewichtskraft d. Hebels muss berücksichtigt werden Planung der Lektionen Zeit Inhalt Form 10’ IU &amp;amp; Advanced organizer Kollektiv 10’ Hands on: phet Simulation Partner und Kollektiv 5’ Muddiest point: Definition Drehmoment Kollektiv 15’ Interview: Hebel/Schaukel Partner Zeit Inhalt Form 5’ IU &amp;amp; Repetition Kollektiv 10’ POE: Zweiseitiger Hebel Einzel, Kollektiv 10’ POE: Einseitiger Hebel Einzel, Kollektiv 20’ Aufgabe einseitiger Hebel Sandwich</summary></entry><entry><title type="html">Einleitung Drehmoment</title><link href="/2021/11/08/torque-hands-on.html" rel="alternate" type="text/html" title="Einleitung Drehmoment" /><published>2021-11-08T00:00:00+00:00</published><updated>2021-11-08T00:00:00+00:00</updated><id>/2021/11/08/torque-hands-on</id><content type="html" xml:base="/2021/11/08/torque-hands-on.html">&lt;p&gt;&lt;img src=&quot;/assets/wippe-phet.jpg&quot; style=&quot;width: 80%;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Spielen für Physikerinnen und Physiker und Kinder: eine Wippe. &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Up_and_down.jpg&quot;&gt;Quelle&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;ziel&quot;&gt;Ziel&lt;/h3&gt;
+
+&lt;p&gt;Als Kind haben Sie sicher schon einmal auf einem Gigigampfi (Wippe) gespielt.
+Hier wenden Sie diese frühkindliche Erfahrung an, 
+um das physikalische Konzept des Drehmoments zu definieren.
+D.h. Ihr Ziel ist es, die Definition des Drehmoments zu kennen
+und zu wissen, wie diese Definition mit dem Beginn einer Drehung zusammenhängt.&lt;/p&gt;
+
+&lt;h3 id=&quot;durchführung&quot;&gt;Durchführung&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;In Partnerarbeit mit einem Smartphone.
+    &lt;ul&gt;
+      &lt;li&gt;Mensch A: Beantwortet Fragen.&lt;/li&gt;
+      &lt;li&gt;Mensch B: Kritisiert und verbessert Antworten von Mensch A und dokumentiert die Resultate auf einem Blatt Papier.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Besuchen Sie die folgende Seite mit einer &lt;a href=&quot;https://phet.colorado.edu/sims/html/balancing-act/latest/balancing-act_en.html&quot;&gt;google Suche: site:phet.colorado.edu balancing act. Wählen Sie dort: intro&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Aktivieren Sie “rulers”.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;aufgaben&quot;&gt;Aufgaben&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/phet-colorado-balancing.png&quot; style=&quot;width: 80%;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Stellt 1. dar. Screenshot aus folgender &lt;a href=&quot;https://phet.colorado.edu/sims/html/balancing-act/latest/balancing-act_en.html&quot;&gt;Quelle&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Platzieren Sie in gleichem Abstand von $2~m$ auf beiden Seiten je ein Feuerlöscher.
+    &lt;ul&gt;
+      &lt;li&gt;Mit dem Slider können Sie unten die Stützen der Wippe entfernen.&lt;/li&gt;
+      &lt;li&gt;Beginnt sich die Wippe zu drehen? Falls ja, mit oder gegen den Uhrzeigersinn?&lt;/li&gt;
+      &lt;li&gt;Installieren Sie die Stützen erneut mit dem Slider.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Halbieren Sie den Abstand des linken Feuerlöschers.
+    &lt;ul&gt;
+      &lt;li&gt;Entfernen Sie erneut die Stützen.&lt;/li&gt;
+      &lt;li&gt;Dreht sich die Wippe nun? Im oder gegen den Uhrzeigersinn?&lt;/li&gt;
+      &lt;li&gt;Stützen installieren mit Slider, bitte.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Ersetzen Sie nun den linken Feuerlöscher durch die Tonne.
+    &lt;ul&gt;
+      &lt;li&gt;Stützen entfernen.&lt;/li&gt;
+      &lt;li&gt;Beginnt sich die Wippe zu drehen? Mit oder gegen den Uhrzeigersinn?&lt;/li&gt;
+      &lt;li&gt;Stützen installieren.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Wir führen Bilanz! Dies erlaubt es uns, solche Fragen (Beginnt Drehung? Im/Gegen Uhrzeigersinn?) zu beantworten.
+    &lt;ul&gt;
+      &lt;li&gt;Machen Sie eine beliebige Anordnung von Tonne und Feuerlöscher.&lt;/li&gt;
+      &lt;li&gt;Für alle Objekte bestimmen wir deren &lt;strong&gt;Drehmoment&lt;/strong&gt;: (z.B. für die Tonne auf der linken Seite mit 1 m Abstand)
+        &lt;ol&gt;
+          &lt;li&gt;Bestimmen Sie die Gewichtskraft $F$, die auf das Objekt wirkt. (z.B. Tonne $F = 100~N$ mit $g = 10~m/s^2$).&lt;/li&gt;
+          &lt;li&gt;Lesen Sie den Abstand $r$ ab. (z.B. $r = 1~m$). Diesen Abstand nennt man in dem Kontext &lt;strong&gt;Hebelarm&lt;/strong&gt;.&lt;/li&gt;
+          &lt;li&gt;Bilden Sie das Produkt von Hebelarm und Kraft, $r F$ mit Einheiten $Nm$ (z.B. $rF = 100~Nm$).&lt;/li&gt;
+          &lt;li&gt;Um das Drehmoment $M$ zu erhalten, brauchen wir noch Information bezüglich “Richtung” der Drehung.
+            &lt;ul&gt;
+              &lt;li&gt;Falls das Objekt &lt;strong&gt;alleine&lt;/strong&gt; eine Drehung gegen den Uhrzeigersinn auslösen würde, dann kommt vor das Produkt $r F$ ein $+$, d.h. $M = + r F$.&lt;/li&gt;
+              &lt;li&gt;im Uhrzeigersinn gibt es ein $-$, d.h. $M = -r F$.&lt;/li&gt;
+              &lt;li&gt;z.B. $M = +100~Nm$ für unsere linke Tonne.&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;Gratulation! Sie haben erfolgreich ein Drehmoment bestimmt!&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Zählen Sie schlussendlich die Drehmomente aller Objekte zusammen. Formell können Sie schreiben $\sum M$ (man spricht dies als “Die Summe über alle Drehmomente” aus).&lt;/li&gt;
+      &lt;li&gt;Betrachten Sie das Vorzeichen von $\sum M$.&lt;/li&gt;
+      &lt;li&gt;Führen Sie diese Rechnung für die Schritte 1-3 auch aus. Vergleichen Sie dabei $\sum M$ mit der resultierenden Drehung.&lt;/li&gt;
+      &lt;li&gt;Was führt zu einer Drehung im/gegen den Uhrzeigersinn?&lt;/li&gt;
+      &lt;li&gt;Was erwarten Sie in Ihrer “custom” Anordnung?&lt;/li&gt;
+      &lt;li&gt;Prüfen Sie Ihre Hypothese, in dem Sie die Stützen lösen!&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Fertig!   :raised_hands:&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Pascal Schweizer</name><email>passchwe.delete.this.here@gmail.com</email></author><summary type="html"></summary></entry><entry><title type="html">Partnerinterview Drehmoment</title><link href="/2021/11/08/torque-interview.html" rel="alternate" type="text/html" title="Partnerinterview Drehmoment" /><published>2021-11-08T00:00:00+00:00</published><updated>2021-11-08T00:00:00+00:00</updated><id>/2021/11/08/torque-interview</id><content type="html" xml:base="/2021/11/08/torque-interview.html">&lt;h2 id=&quot;ablauf&quot;&gt;Ablauf&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Partnerarbeit
+    &lt;ul&gt;
+      &lt;li&gt;Studieren Sie die Lösungen:
+        &lt;ul&gt;
+          &lt;li&gt;Mensch A: Studiert die Lösung von Aufgabe 1.&lt;/li&gt;
+          &lt;li&gt;Mensch B: Studiert die Lösung von Aufgabe 2.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Ziel: Sie werden eine Expertin dieser Aufgabe!&lt;/li&gt;
+      &lt;li&gt;Im Anschluss stellen Sie Ihre Aufgabe ihrem Partner.&lt;/li&gt;
+      &lt;li&gt;Das Ziel ist, das dieser zur algebraischen Lösung kommt (&lt;strong&gt;ohne&lt;/strong&gt; die Lösung zu studieren, &lt;strong&gt;nur&lt;/strong&gt; durch Anleitung der Expertin).&lt;/li&gt;
+      &lt;li&gt;Unterstützen Sie sich dabei gegenseitig.&lt;/li&gt;
+      &lt;li&gt;Schauen Sie, dass Sie mindestens jeweils die erste Teilaufgabe gelöst bekommen.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Falls Sie Druckfehler finden wäre ich für eine Meldung dankbar!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;aufgabe-1-hebel&quot;&gt;Aufgabe 1: Hebel&lt;/h2&gt;
+
+&lt;p&gt;Stellen Sie Sich vor, Sie sind auf einer Wanderung.
+Der Weg wird aber von einem grossen Felsbrocken der Masse $m_1 = 100~kg$ versperrt.
+Sie müssen den Stein anheben, um ihn aus dem Weg zu räumen, damit Sie ihre Wanderung fortsetzen können.
+Glücklicherweise haben Sie einen stabilen Wanderstock der Länge $l = 2~m$ dabei und können Physik!
+Sie nehmen Ihren Wanderstock, legen sich einen Drehpunkt mit Abstand $r_1 = 10~cm$ vom Felsbrocken.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Wie viel Kraft müssen Sie ausüben, um den Stein anzuheben (bzw. zu balancieren)?&lt;/li&gt;
+  &lt;li&gt;Stellen Sie sich vor, Sie müssten mit dieser Kraft eine Masse aufheben. Wie gross wäre diese?&lt;/li&gt;
+  &lt;li&gt;Was ist die Bedingung, damit sich dieses Unterfangen lohnt, d.h. wie gross/klein muss $r_1$ gewählt werden?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/hebel-wanderer-edited.png&quot; style=&quot;width: 80%;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Situation in Aufgabe 1: Steine aus dem Weg räumen. Quelle: Giancoli, Physics.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Gegeben sind $m_1 = 100~kg$, $r_1 = 0.10~m$ und $l = 2~m$.
+Gesucht ist die Kraft für das Anheben $F_2$ in $N$.
+Der zweite &lt;strong&gt;Hebelarm&lt;/strong&gt; ist $r_2 = l - r_1 = 1.9~m$.
+Für das balancieren brauchen wir $\sum M = M_1 + M_2 = 0$
+Dabei ist $M_1 = r_1 F_1$ (Drehung gegen den Uhrzeigersinn) mit $F_1 = m_1 g$
+und $M_2 = -r_2 F_2$ (Drehung im Uhrzeigersinn).
+In dem wir $\sum M = 0$ nach $F_2$ auflösen, erhalten wir die Lösung
+$$
+    F_2 = \frac{r_1 m g}{r_2} = \frac{r_1 m g}{l - r_1} \approx \frac{0.1~m * 100~kg * 10~m/s^2}{1.9~m} \approx 50~N.
+$$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Gegeben sind $F_2 = 50 N$.
+Gesucht ist eine Masse $m_2$ in $kg$.
+Die Gewichtskraft ist $F = m g$, darum ist die Lösung
+$$
+    m_2 = \frac{F_2}{g} = \frac{r_1 m }{l - r_1} \approx 5~kg.
+$$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Das lohnt sich falls $\eta = \frac{F_2}{F_1} &amp;lt; 1$. Wir suchen also $r_1$ in $m$.
+Gemäss obiger Formel für $F_2$ ist das Resultat also
+$$
+\eta = \frac{r_1}{r_2} = \frac{r_1}{l-r_1} &amp;lt; 1.
+$$
+Dies gilt, wenn $r_1 &amp;lt; l - r_1$ also wenn $0~m &amp;lt; r_1 &amp;lt; 1~m$.   :white_check_mark:&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;aufgabe-2-wippe&quot;&gt;Aufgabe 2: Wippe&lt;/h2&gt;
+&lt;p&gt;Versetzen Sie Sich in Ihre Kindheit zurück. 
+Beim Spielen auf der Wippe sind die Kinder in der Regel nicht gleich schwer.
+Nehmen wir an, dass Alice $m_A = 30~kg$ und Bob $m_B = 25~kg$ miteinander auf der Wippe sind.
+Die Wippe ist für unsere Zwecke immer ausreichend Lang und Alice sitzt so, dass ihr Hebelarm $r_A = 2.5~m$ ist.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Wo muss sich Bob hinsetzen, damit das balancieren funktioniert? In anderen Worten: Was ist Bobs Hebelarm?&lt;/li&gt;
+  &lt;li&gt;Angenommen Bobs Hebelarm ist auch $2.5~m$. Wo müsste sich Charlie $m_C = 15~kg$ hinsetzen, 
+damit die Wippe stabil bleibt?&lt;/li&gt;
+  &lt;li&gt;Wie schwer müsste Charlie sein, damit er sich in $r_C = 1~km$ dazusetzen kann. Existiert so ein Charlie?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/wippe-think-pair-edited.png&quot; style=&quot;width: 80%;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Situation in Aufgabe 2: Mit Alice und Bob auf dem Spielplatz. Quelle Giancoli, Physics.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Gegeben sind $m_A = 30~kg$, $m_B = 25~kg$ und $r_A = 2.5~m$.
+Gesucht ist $r_B$ in $m$.
+Die Bedingung $\sum M = M_A + M_B = 0$ ist nötig, damit es nicht beginnt zu drehen.
+Da Alice links sitzt ist $M_A = + r_A m_A g$. 
+Für Bob haben wir dafür $M_B = - r_B m_B g$.
+Wir finden die Lösung
+$$
+r_B = \frac{r_A m_A}{m_B} \approx 3~m.
+$$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Zusätzlich gegeben ist $m_C = 15~kg$ und $r_B = 2.5~m$ und gesucht ist $r_C$.
+Die Bedingung für kein Schaukelbeginn ist $\sum M = M_A + M_B + M_C = 0$.
+Da der Betrag von $M_B$ kleiner wird, sind die ersten zwei Drehmomente zusammen immer noch positiv und somit muss $M_C = -r_C m g$ negativ sein.
+Die Lösung ist durch Auflösen nach $r_C$ gegeben durch
+$$
+ r_C =  \frac{m_A r_A - m_B r_B}{m_C} \approx  0.8~m.
+$$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Hier ist $r_C = 10~km = 10^3~m$ gegeben und $m_C$ gesucht in $kg$.
+Für die Lösung stellen wir die Formel aus 2. nach $m_C$ um und erhalten
+$$
+ m_C =  \frac{m_A r_A - m_B r_B}{r_C} \approx 1.25 * 10^{-2}~kg.
+$$
+Diese Masse ist zu klein für einen Charlie!   :disappointed:&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Pascal Schweizer</name><email>passchwe.delete.this.here@gmail.com</email></author><summary type="html">Ablauf Partnerarbeit Studieren Sie die Lösungen: Mensch A: Studiert die Lösung von Aufgabe 1. Mensch B: Studiert die Lösung von Aufgabe 2. Ziel: Sie werden eine Expertin dieser Aufgabe! Im Anschluss stellen Sie Ihre Aufgabe ihrem Partner. Das Ziel ist, das dieser zur algebraischen Lösung kommt (ohne die Lösung zu studieren, nur durch Anleitung der Expertin). Unterstützen Sie sich dabei gegenseitig. Schauen Sie, dass Sie mindestens jeweils die erste Teilaufgabe gelöst bekommen. Falls Sie Druckfehler finden wäre ich für eine Meldung dankbar!</summary></entry><entry><title type="html">Zwei Lektionen zum Drehmoment</title><link href="/2021/11/07/planning-two-lessons-on-torque.html" rel="alternate" type="text/html" title="Zwei Lektionen zum Drehmoment" /><published>2021-11-07T00:00:00+00:00</published><updated>2021-11-07T00:00:00+00:00</updated><id>/2021/11/07/planning-two-lessons-on-torque</id><content type="html" xml:base="/2021/11/07/planning-two-lessons-on-torque.html">&lt;h3 id=&quot;allgemeine-ziele&quot;&gt;Allgemeine Ziele&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;mathematische Fluency verbessern&lt;/li&gt;
+  &lt;li&gt;typische algebraische und arithmetische Fehler besprechen&lt;/li&gt;
+  &lt;li&gt;Drehmoment als nützliche Gleichgewichtsgrösse einführen&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;begriffe&quot;&gt;Begriffe&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gleichgewicht&lt;/li&gt;
+  &lt;li&gt;Kräfte&lt;/li&gt;
+  &lt;li&gt;Drehmomente&lt;/li&gt;
+  &lt;li&gt;Hebel&lt;/li&gt;
+  &lt;li&gt;im/gegen Uhrzeigersinn&lt;/li&gt;
+  &lt;li&gt;Schaukel&lt;/li&gt;
+  &lt;li&gt;Referenzpunkt Wahl&lt;/li&gt;
+  &lt;li&gt;Geometrie (i.e. $\sin \theta$)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img class=&quot;mermaid&quot; src=&quot;https://mermaid.ink/svg/eyJjb2RlIjoiZ3JhcGggVEQ7XG5HRyhHbGVpY2hnZXdpY2h0KVxuLS0-fG1vdGl2aWVydCBEZWZpbml0aW9uIHZvbnwgTShEcmVobW9tZW50KVxuR0cgICAgLS0-fHZlcnNjaHdpbmRldHwgRnMoU3VtbWUgw7xiZXIgS3LDpGZ0ZSlcbk1cbi0tPnxSaWNodHVuZ3wgKyhHZWdlbiBVaHJ6ZWlnZXJzaW5uOiBwb3NpdGl2KSAmIC0oSW0gVWhyemVpZ2Vyc2lubjogbmVnYXRpdilcbk1cbi0tLS0-fEJldHJhZyBzZXR6dCBzaWNoIHp1c2FtbWVuIGF1c3wgcihPcnRzdmVrdG9yKSAmIEYoS3JhZnQpICYgcGhpKFdpbmtlbClcbkZcbi0tLS0-fGJlaXNwaWVsc3dlaXNlfCBtZyhHZXdpY2h0c2tyYWZ0KVxuclxuLS0tLT58cmVsYXRpdiB6dXwgUChSZWZlcmVuenB1bmt0L0RyZWhhY2hzZSlcbk1cbi0tLS0tLT58QW53ZW5kdW5nZW58IEgoSGViZWwpICYgUyhTY2hhdWtlbCkgJiBGZGlhZyhLcsOkZnRlZGlhZ3JhbW0pXG5GZGlhZ1xuLS0tLT58bsO8dHpsaWNoIGJlaXwgUCAmIHBoaSIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In19&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;lernziele-l1&quot;&gt;Lernziele L1&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;kennen Definition des Drehmoments&lt;/li&gt;
+  &lt;li&gt;kennen Vorzeichenkonvention für Drehung&lt;/li&gt;
+  &lt;li&gt;lösen Schaukel und zweiseitige Hebelaufgaben&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;lernziele-l2&quot;&gt;Lernziele L2&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;erinnern sich noch an Zusammenhang Masse, Volumen, Dichte&lt;/li&gt;
+  &lt;li&gt;wissen, was beim einseitigen Hebel schiefläuft&lt;/li&gt;
+  &lt;li&gt;wissen, dass der Referenzpunkt arbiträr ist&lt;/li&gt;
+  &lt;li&gt;kennen die Winkelabhängigkeit&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;vorwissen-und-schwierigkeiten&quot;&gt;Vorwissen und Schwierigkeiten&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gewichtskraft&lt;/li&gt;
+  &lt;li&gt;evtl. Trigonometrie&lt;/li&gt;
+  &lt;li&gt;evtl. Kräftediagramm&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;evtl. COM als Angriffspunkt der Gewichtskraft&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Kraft
+    &lt;ul&gt;
+      &lt;li&gt;Clusterbegriff für Energie und Impuls.&lt;/li&gt;
+      &lt;li&gt;Eine Kraft ändert die Geschwindigkeit eines Körpers.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;evidenz&quot;&gt;Evidenz&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lernende erklären sich Rechnungen gegenseitig in think pair share&lt;/li&gt;
+  &lt;li&gt;Muddiest point nach hands on für den Begriff des Drehmoments&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;methoden&quot;&gt;Methoden&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1(A) Advanced organizer:
+    &lt;ul&gt;
+      &lt;li&gt;Zusammenhängende Lektionen&lt;/li&gt;
+      &lt;li&gt;Überblick verschaffen&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;1(D) hands on:
+    &lt;ul&gt;
+      &lt;li&gt;Entdecken des Drehmoments &lt;a href=&quot;https://phet.colorado.edu/sims/html/balancing-act/latest/balancing-act_en.html&quot;&gt;-&amp;gt; google: site:phet.colorado.edu balancing act -&amp;gt; wählen: intro&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;1&amp;amp;2(C) think pair share:
+    &lt;ul&gt;
+      &lt;li&gt;Aufgabe Schaukel und Hebel&lt;/li&gt;
+      &lt;li&gt;Aufgabe Wahl des Referenzpunkts&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2(C) predict observe explain / productive failure:
+    &lt;ul&gt;
+      &lt;li&gt;Einseitiger Hebel&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;planung-der-lektionen&quot;&gt;Planung der Lektionen&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Zeit&lt;/th&gt;
+      &lt;th&gt;Inhalt&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10’&lt;/td&gt;
+      &lt;td&gt;IU &amp;amp; Advanced organizer&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10’&lt;/td&gt;
+      &lt;td&gt;Hands on: phet Simulation&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5’&lt;/td&gt;
+      &lt;td&gt;Muddiest point: Definition Drehmoment&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;15’&lt;/td&gt;
+      &lt;td&gt;think pair share: Hebel/Schaukel&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Zeit&lt;/th&gt;
+      &lt;th&gt;Inhalt&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5’&lt;/td&gt;
+      &lt;td&gt;IU &amp;amp; Repetition&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10’&lt;/td&gt;
+      &lt;td&gt;POE/failure: Einseitiger Hebel&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10’&lt;/td&gt;
+      &lt;td&gt;Muddiest point&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;15’&lt;/td&gt;
+      &lt;td&gt;think pair share: Schaukel mit alt. Referenzpunkt/Sprungbrett&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name>Pascal Schweizer</name><email>passchwe.delete.this.here@gmail.com</email></author><summary type="html">Allgemeine Ziele mathematische Fluency verbessern typische algebraische und arithmetische Fehler besprechen Drehmoment als nützliche Gleichgewichtsgrösse einführen</summary></entry><entry><title type="html">Mean Field Theory from Relative Entropy</title><link href="/2021/09/28/relative-entropy-and-mean-field-theory.html" rel="alternate" type="text/html" title="Mean Field Theory from Relative Entropy" /><published>2021-09-28T00:00:00+00:00</published><updated>2021-09-28T00:00:00+00:00</updated><id>/2021/09/28/relative-entropy-and-mean-field-theory</id><content type="html" xml:base="/2021/09/28/relative-entropy-and-mean-field-theory.html">&lt;p&gt;Mean field theory allows us to obtain a simplified partition function.
+We will motivate this and provide an example.
+In statistical physics, one would like to evaluate partition functions.
+However, sometimes this evaluation is difficult
+because of a “complicated” Hamiltonian.
+In mean field theory, one replaces the “complicated” Hamiltonian with a “simple” one.
+E.g. take the classical Ising model with its “complicated” Hamiltonian&lt;/p&gt;
+
+&lt;p&gt;\begin{align}
+    H(s) = - J \sum_{\langle ij \rangle} s_i s_j -h \sum_i s_i,
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;where the $s_i \in \{\pm 1\}$ are spins associated to a site $i$ in a lattice of $N$ sites.
+In mean field theory, this Hamiltonian gets replaced by the “simple” Hamiltonian
+\begin{align}
+    H(m) = - \frac{N}{2} J m^2 - N h m,
+\end{align}
+where
+\begin{align}
+    m(s) = \frac{1}{N}\sum_i s_i \in \{-1, \dots, 1\}
+\end{align}
+can be thought of as an effective magnetization.
+Using these two Hamiltonians, one could evaluate their respective partition functions
+\begin{align}
+    \label{eq:partition_function}
+    Z = \sum e^{-\beta H}.
+\end{align}
+There, in the case of the classical Ising model, 
+one has a sum over all possible spin configurations $s_i \in \{\pm 1\}$.
+However, for mean field theory, 
+one has a sum over the effective magnetization $m \in \{-1, \dots, 1\}$ (and uses a weight given by the degeneracy of the magnetization therein). 
+This fact greatly simplifies the computation of eq. \ref{eq:partition_function} for the mean field model.&lt;/p&gt;</content><author><name>Pascal Schweizer</name><email>passchwe.delete.this.here@gmail.com</email></author><summary type="html">Mean field theory allows us to obtain a simplified partition function. We will motivate this and provide an example. In statistical physics, one would like to evaluate partition functions. However, sometimes this evaluation is difficult because of a “complicated” Hamiltonian. In mean field theory, one replaces the “complicated” Hamiltonian with a “simple” one. E.g. take the classical Ising model with its “complicated” Hamiltonian \begin{align} H(s) = - J \sum_{\langle ij \rangle} s_i s_j -h \sum_i s_i, \end{align} where the $s_i \in \{\pm 1\}$ are spins associated to a site $i$ in a lattice of $N$ sites. In mean field theory, this Hamiltonian gets replaced by the “simple” Hamiltonian \begin{align} H(m) = - \frac{N}{2} J m^2 - N h m, \end{align} where \begin{align} m(s) = \frac{1}{N}\sum_i s_i \in \{-1, \dots, 1\} \end{align} can be thought of as an effective magnetization. Using these two Hamiltonians, one could evaluate their respective partition functions \begin{align} \label{eq:partition_function} Z = \sum e^{-\beta H}. \end{align} There, in the case of the classical Ising model, one has a sum over all possible spin configurations $s_i \in \{\pm 1\}$. However, for mean field theory, one has a sum over the effective magnetization $m \in \{-1, \dots, 1\}$ (and uses a weight given by the degeneracy of the magnetization therein). This fact greatly simplifies the computation of eq. \ref{eq:partition_function} for the mean field model.</summary></entry></feed>

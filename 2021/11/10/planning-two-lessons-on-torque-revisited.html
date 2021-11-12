@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Zwei Lektionen zum Drehmoment: Revisited | Pascal Schweizer’s Page</title>
+<meta name="generator" content="Jekyll v4.2.1">
+<meta property="og:title" content="Zwei Lektionen zum Drehmoment: Revisited">
+<meta name="author" content="Pascal Schweizer">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Allgemeine Ziele Mathematische Fluency verbessern. Wie funktioniert ein Gleichgewicht? Hier: Summe über alle Drehmomente. Alltagsanwendungen: Wippe, Schraubenzieher, Ratsche, … Begriffe (V): Vorwissen Gleichgewicht Kräfte(V) Drehmomente Hebel im/gegen Uhrzeigersinn Schaukel Referenzpunkt Wahl Geometrie (i.e. $\sin \theta$) graph TD; GG(Gleichgewicht) --&gt;|motiviert Definition von| M(Drehmoment) GG --&gt;|verschwindet| Fs(Summe über Kräfte) M --&gt;|Richtung| +(Gegen Uhrzeigersinn: positiv) &amp; -(Im Uhrzeigersinn: negativ) M ----&gt;|Betrag setzt sich zusammen aus| r(Ortsvektor) &amp; F(Kraft) &amp; phi(Winkel) F ----&gt;|beispielsweise| mg(Gewichtskraft) r ----&gt;|relativ zu| P(Referenzpunkt/Drehachse) M ------&gt;|Anwendungen| H(Hebel) &amp; S(Schaukel) &amp; Fdiag(Kräftediagramm) Fdiag ----&gt;|nützlich bei| P &amp; phi Lernziele L1 kennen Definition des Drehmoments kennen Vorzeichenkonvention für Drehung lösen Schaukel und zweiseitige Hebelaufgaben Lernziele L2 wissen, was beim einseitigen Hebel zusätzlich berücksichtigt werden muss lösen Aufgabe zu einseitigem Hebel Vorwissen und Schwierigkeiten Gewichtskraft evtl. Trigonometrie evtl. Kräftediagramm evtl. COM als Angriffspunkt der Gewichtskraft Kraft Clusterbegriff für Energie und Impuls Eine Kraft ändert die Geschwindigkeit eines Körpers Evidenz 1: Lernende erklären sich Rechnungen gegenseitig im Interview 1: Muddiest point nach hands on für den Begriff des Drehmoments 2: One sentence summary für einseitiger Hebel POE Methoden 1(A) Advanced organizer: Zusammenhängende Lektionen Überblick verschaffen 1(D) hands on: Entdecken des Drehmoments -&gt; google: site:phet.colorado.edu balancing act -&gt; wählen: intro 1(B) Interview: Aufgabe Schaukel und Hebel Aufgabe Wahl des Referenzpunkts 2(C) predict observe explain / productive failure: Einseitiger Hebel - Gewichtskraft d. Hebels muss berücksichtigt werden Planung der Lektionen Zeit Inhalt Form 10’ IU &amp; Advanced organizer Kollektiv 10’ Hands on: phet Simulation Partner und Kollektiv 5’ Muddiest point: Definition Drehmoment Kollektiv 15’ Interview: Hebel/Schaukel Partner Zeit Inhalt Form 5’ IU &amp; Repetition Kollektiv 10’ POE: Zweiseitiger Hebel Einzel, Kollektiv 10’ POE: Einseitiger Hebel Einzel, Kollektiv 20’ Aufgabe einseitiger Hebel Sandwich">
+<meta property="og:description" content="Allgemeine Ziele Mathematische Fluency verbessern. Wie funktioniert ein Gleichgewicht? Hier: Summe über alle Drehmomente. Alltagsanwendungen: Wippe, Schraubenzieher, Ratsche, … Begriffe (V): Vorwissen Gleichgewicht Kräfte(V) Drehmomente Hebel im/gegen Uhrzeigersinn Schaukel Referenzpunkt Wahl Geometrie (i.e. $\sin \theta$) graph TD; GG(Gleichgewicht) --&gt;|motiviert Definition von| M(Drehmoment) GG --&gt;|verschwindet| Fs(Summe über Kräfte) M --&gt;|Richtung| +(Gegen Uhrzeigersinn: positiv) &amp; -(Im Uhrzeigersinn: negativ) M ----&gt;|Betrag setzt sich zusammen aus| r(Ortsvektor) &amp; F(Kraft) &amp; phi(Winkel) F ----&gt;|beispielsweise| mg(Gewichtskraft) r ----&gt;|relativ zu| P(Referenzpunkt/Drehachse) M ------&gt;|Anwendungen| H(Hebel) &amp; S(Schaukel) &amp; Fdiag(Kräftediagramm) Fdiag ----&gt;|nützlich bei| P &amp; phi Lernziele L1 kennen Definition des Drehmoments kennen Vorzeichenkonvention für Drehung lösen Schaukel und zweiseitige Hebelaufgaben Lernziele L2 wissen, was beim einseitigen Hebel zusätzlich berücksichtigt werden muss lösen Aufgabe zu einseitigem Hebel Vorwissen und Schwierigkeiten Gewichtskraft evtl. Trigonometrie evtl. Kräftediagramm evtl. COM als Angriffspunkt der Gewichtskraft Kraft Clusterbegriff für Energie und Impuls Eine Kraft ändert die Geschwindigkeit eines Körpers Evidenz 1: Lernende erklären sich Rechnungen gegenseitig im Interview 1: Muddiest point nach hands on für den Begriff des Drehmoments 2: One sentence summary für einseitiger Hebel POE Methoden 1(A) Advanced organizer: Zusammenhängende Lektionen Überblick verschaffen 1(D) hands on: Entdecken des Drehmoments -&gt; google: site:phet.colorado.edu balancing act -&gt; wählen: intro 1(B) Interview: Aufgabe Schaukel und Hebel Aufgabe Wahl des Referenzpunkts 2(C) predict observe explain / productive failure: Einseitiger Hebel - Gewichtskraft d. Hebels muss berücksichtigt werden Planung der Lektionen Zeit Inhalt Form 10’ IU &amp; Advanced organizer Kollektiv 10’ Hands on: phet Simulation Partner und Kollektiv 5’ Muddiest point: Definition Drehmoment Kollektiv 15’ Interview: Hebel/Schaukel Partner Zeit Inhalt Form 5’ IU &amp; Repetition Kollektiv 10’ POE: Zweiseitiger Hebel Einzel, Kollektiv 10’ POE: Einseitiger Hebel Einzel, Kollektiv 20’ Aufgabe einseitiger Hebel Sandwich">
+<meta property="og:site_name" content="Pascal Schweizer’s Page">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2021-11-10T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Zwei Lektionen zum Drehmoment: Revisited">
+<script type="application/ld+json">
+{"author":{"@type":"Person","name":"Pascal Schweizer"},"url":"/2021/11/10/planning-two-lessons-on-torque-revisited.html","description":"Allgemeine Ziele Mathematische Fluency verbessern. Wie funktioniert ein Gleichgewicht? Hier: Summe über alle Drehmomente. Alltagsanwendungen: Wippe, Schraubenzieher, Ratsche, … Begriffe (V): Vorwissen Gleichgewicht Kräfte(V) Drehmomente Hebel im/gegen Uhrzeigersinn Schaukel Referenzpunkt Wahl Geometrie (i.e. $\\sin \\theta$) graph TD; GG(Gleichgewicht) --&gt;|motiviert Definition von| M(Drehmoment) GG --&gt;|verschwindet| Fs(Summe über Kräfte) M --&gt;|Richtung| +(Gegen Uhrzeigersinn: positiv) &amp; -(Im Uhrzeigersinn: negativ) M ----&gt;|Betrag setzt sich zusammen aus| r(Ortsvektor) &amp; F(Kraft) &amp; phi(Winkel) F ----&gt;|beispielsweise| mg(Gewichtskraft) r ----&gt;|relativ zu| P(Referenzpunkt/Drehachse) M ------&gt;|Anwendungen| H(Hebel) &amp; S(Schaukel) &amp; Fdiag(Kräftediagramm) Fdiag ----&gt;|nützlich bei| P &amp; phi Lernziele L1 kennen Definition des Drehmoments kennen Vorzeichenkonvention für Drehung lösen Schaukel und zweiseitige Hebelaufgaben Lernziele L2 wissen, was beim einseitigen Hebel zusätzlich berücksichtigt werden muss lösen Aufgabe zu einseitigem Hebel Vorwissen und Schwierigkeiten Gewichtskraft evtl. Trigonometrie evtl. Kräftediagramm evtl. COM als Angriffspunkt der Gewichtskraft Kraft Clusterbegriff für Energie und Impuls Eine Kraft ändert die Geschwindigkeit eines Körpers Evidenz 1: Lernende erklären sich Rechnungen gegenseitig im Interview 1: Muddiest point nach hands on für den Begriff des Drehmoments 2: One sentence summary für einseitiger Hebel POE Methoden 1(A) Advanced organizer: Zusammenhängende Lektionen Überblick verschaffen 1(D) hands on: Entdecken des Drehmoments -&gt; google: site:phet.colorado.edu balancing act -&gt; wählen: intro 1(B) Interview: Aufgabe Schaukel und Hebel Aufgabe Wahl des Referenzpunkts 2(C) predict observe explain / productive failure: Einseitiger Hebel - Gewichtskraft d. Hebels muss berücksichtigt werden Planung der Lektionen Zeit Inhalt Form 10’ IU &amp; Advanced organizer Kollektiv 10’ Hands on: phet Simulation Partner und Kollektiv 5’ Muddiest point: Definition Drehmoment Kollektiv 15’ Interview: Hebel/Schaukel Partner Zeit Inhalt Form 5’ IU &amp; Repetition Kollektiv 10’ POE: Zweiseitiger Hebel Einzel, Kollektiv 10’ POE: Einseitiger Hebel Einzel, Kollektiv 20’ Aufgabe einseitiger Hebel Sandwich","@type":"BlogPosting","headline":"Zwei Lektionen zum Drehmoment: Revisited","dateModified":"2021-11-10T00:00:00+00:00","datePublished":"2021-11-10T00:00:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"/2021/11/10/planning-two-lessons-on-torque-revisited.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css">
+<link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Pascal Schweizer's Page">
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#3d0589">
+<meta name="theme-color" content="#333333">
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      
+      TeX: {
+        equationNumbers: { autoNumber: "AMS" },
+        tagSide: "right"
+      },
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+  
+<script>MathJax={"tex":{"inlineMath":[["$","$"],["\\(","\\)"]],"displayMath":[["$$","$$"],["\\[","\\]"]],"tags":"ams"},"svg":{"fontCache":"global"},"svg":{"fontCache":"global"}}</script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+<header class="site-header">
+
+  <div class="wrapper">
+<a class="site-title" rel="author" href="/">Pascal Schweizer's Page</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger">
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewbox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav>
+</div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Zwei Lektionen zum Drehmoment: Revisited</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2021-11-10T00:00:00+00:00" itemprop="datePublished">
+        Nov 10, 2021
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h3 id="allgemeine-ziele">Allgemeine Ziele</h3>
+<ul>
+  <li>Mathematische Fluency verbessern.</li>
+  <li>Wie funktioniert ein Gleichgewicht? Hier: Summe über alle Drehmomente.</li>
+  <li>Alltagsanwendungen: Wippe, Schraubenzieher, Ratsche, …</li>
+</ul>
+
+<h3 id="begriffe">Begriffe</h3>
+
+<p>(V): Vorwissen</p>
+
+<ul>
+  <li>Gleichgewicht</li>
+  <li>Kräfte(V)</li>
+  <li>Drehmomente</li>
+  <li>Hebel</li>
+  <li>im/gegen Uhrzeigersinn</li>
+  <li>Schaukel</li>
+  <li>Referenzpunkt Wahl</li>
+  <li>Geometrie (i.e. $\sin \theta$)</li>
+</ul>
+
+<p><img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoiZ3JhcGggVEQ7XG5HRyhHbGVpY2hnZXdpY2h0KVxuLS0-fG1vdGl2aWVydCBEZWZpbml0aW9uIHZvbnwgTShEcmVobW9tZW50KVxuR0cgICAgLS0-fHZlcnNjaHdpbmRldHwgRnMoU3VtbWUgw7xiZXIgS3LDpGZ0ZSlcbk1cbi0tPnxSaWNodHVuZ3wgKyhHZWdlbiBVaHJ6ZWlnZXJzaW5uOiBwb3NpdGl2KSAmIC0oSW0gVWhyemVpZ2Vyc2lubjogbmVnYXRpdilcbk1cbi0tLS0-fEJldHJhZyBzZXR6dCBzaWNoIHp1c2FtbWVuIGF1c3wgcihPcnRzdmVrdG9yKSAmIEYoS3JhZnQpICYgcGhpKFdpbmtlbClcbkZcbi0tLS0-fGJlaXNwaWVsc3dlaXNlfCBtZyhHZXdpY2h0c2tyYWZ0KVxuclxuLS0tLT58cmVsYXRpdiB6dXwgUChSZWZlcmVuenB1bmt0L0RyZWhhY2hzZSlcbk1cbi0tLS0tLT58QW53ZW5kdW5nZW58IEgoSGViZWwpICYgUyhTY2hhdWtlbCkgJiBGZGlhZyhLcsOkZnRlZGlhZ3JhbW0pXG5GZGlhZ1xuLS0tLT58bsO8dHpsaWNoIGJlaXwgUCAmIHBoaSIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In19"></p>
+
+<h3 id="lernziele-l1">Lernziele L1</h3>
+<ul>
+  <li>kennen Definition des Drehmoments</li>
+  <li>kennen Vorzeichenkonvention für Drehung</li>
+  <li>lösen Schaukel und zweiseitige Hebelaufgaben</li>
+</ul>
+
+<h3 id="lernziele-l2">Lernziele L2</h3>
+<ul>
+  <li>wissen, was beim einseitigen Hebel zusätzlich berücksichtigt werden muss</li>
+  <li>lösen Aufgabe zu einseitigem Hebel</li>
+</ul>
+
+<h3 id="vorwissen-und-schwierigkeiten">Vorwissen und Schwierigkeiten</h3>
+
+<ul>
+  <li>Gewichtskraft</li>
+  <li>evtl. Trigonometrie</li>
+  <li>evtl. Kräftediagramm</li>
+  <li>
+    <p>evtl. COM als Angriffspunkt der Gewichtskraft</p>
+  </li>
+  <li>Kraft
+    <ul>
+      <li>Clusterbegriff für Energie und Impuls</li>
+      <li>Eine Kraft ändert die Geschwindigkeit eines Körpers</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="evidenz">Evidenz</h3>
+
+<ul>
+  <li>1: Lernende erklären sich Rechnungen gegenseitig im Interview</li>
+  <li>1: Muddiest point nach hands on für den Begriff des Drehmoments</li>
+  <li>2: One sentence summary für einseitiger Hebel POE</li>
+</ul>
+
+<h3 id="methoden">Methoden</h3>
+
+<ul>
+  <li>1(A) Advanced organizer:
+    <ul>
+      <li>Zusammenhängende Lektionen</li>
+      <li>Überblick verschaffen</li>
+    </ul>
+  </li>
+  <li>1(D) hands on:
+    <ul>
+      <li>Entdecken des Drehmoments <a href="https://phet.colorado.edu/sims/html/balancing-act/latest/balancing-act_en.html">-&gt; google: site:phet.colorado.edu balancing act -&gt; wählen: intro</a>
+</li>
+    </ul>
+  </li>
+  <li>1(B) Interview:
+    <ul>
+      <li>Aufgabe Schaukel und Hebel</li>
+      <li>Aufgabe Wahl des Referenzpunkts</li>
+    </ul>
+  </li>
+  <li>2(C) predict observe explain / productive failure:
+    <ul>
+      <li>Einseitiger Hebel - Gewichtskraft d. Hebels muss berücksichtigt werden</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="planung-der-lektionen">Planung der Lektionen</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Zeit</th>
+      <th>Inhalt</th>
+      <th>Form</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>10’</td>
+      <td>IU &amp; Advanced organizer</td>
+      <td>Kollektiv</td>
+    </tr>
+    <tr>
+      <td>10’</td>
+      <td>Hands on: phet Simulation</td>
+      <td>Partner und Kollektiv</td>
+    </tr>
+    <tr>
+      <td>5’</td>
+      <td>Muddiest point: Definition Drehmoment</td>
+      <td>Kollektiv</td>
+    </tr>
+    <tr>
+      <td>15’</td>
+      <td>Interview: Hebel/Schaukel</td>
+      <td>Partner</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Zeit</th>
+      <th>Inhalt</th>
+      <th>Form</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>5’</td>
+      <td>IU &amp; Repetition</td>
+      <td>Kollektiv</td>
+    </tr>
+    <tr>
+      <td>10’</td>
+      <td>POE: Zweiseitiger Hebel</td>
+      <td>Einzel, Kollektiv</td>
+    </tr>
+    <tr>
+      <td>10’</td>
+      <td>POE: Einseitiger Hebel</td>
+      <td>Einzel, Kollektiv</td>
+    </tr>
+    <tr>
+      <td>20’</td>
+      <td>Aufgabe einseitiger Hebel</td>
+      <td>Sandwich</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+<a class="u-url" href="/2021/11/10/planning-two-lessons-on-torque-revisited.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+        <ul class="contact-list">
+          <li class="p-name">Pascal Schweizer</li>
+          <li><a class="u-email" href="mailto:passchwe.delete.this.here@gmail.com">passchwe.delete.this.here@gmail.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <p></p>
+      </div>
+    </div>
+
+    <div class="social-links">
+<ul class="social-media-list">
+<li><a rel="me" href="https://gitlab.ethz.ch/passchwe" title="passchwe"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#gitlab"></use></svg></a></li>
+<li><a rel="me" href="https://github.com/passchwe" title="passchwe"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg></a></li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
