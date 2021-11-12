@@ -62,7 +62,7 @@ Aufgabe 2: Wippe
 Versetzen Sie Sich in Ihre Kindheit zurück. 
 Beim Spielen auf der Wippe sind die Kinder in der Regel nicht gleich schwer.
 Nehmen wir an, dass Alice $m_A = 30~kg$ und Bob $m_B = 25~kg$ miteinander auf der Wippe sind.
-Die Wippe ist für unsere Zwecke unendlich Lang und Alice sitzt so, dass ihr Hebelarm $r_A = 2.5~m$ ist.
+Die Wippe ist für unsere Zwecke immer ausreichend Lang und Alice sitzt so, dass ihr Hebelarm $r_A = 2.5~m$ ist.
 1.  Wo muss sich Bob hinsetzen, damit das balancieren funktioniert? In anderen Worten: Was ist Bobs Hebelarm?
 2.  Angenommen Bobs Hebelarm ist auch $2.5~m$. Wo müsste sich Charlie $m_C = 15~kg$ hinsetzen, 
 damit die Wippe stabil bleibt?
